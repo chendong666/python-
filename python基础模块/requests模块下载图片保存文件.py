@@ -1,9 +1,14 @@
 # -*- coding:utf-8 -*-
+#__author__ = 'wukong'
+# python_version : 2.7.13
+
 import requests
 #import urllib
-#使用urllib库的urlretrieve()也可以实现图片下载
-url = 'http://upload-images.jianshu.io/upload_images/5831032-3e4d3f9ad5a61b78.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50'
+url = 'https://cdn.pixabay.com/photo/2017/08/03/00/34/world-trade-centre-2574316__340.jpg'
+#无版权图片
 r = requests.get(url)
-with open('chun.jpg', 'wb') as fo:
-    fo.write(r.content)
-#urllib.urlretrieve(url,'chun1.jpg')
+
+with open('city.jpg', 'wb') as f:
+    f.write(r.content)
+#urllib.urlretrieve(url,'city1.jpg')
+#使用urllib库的urlretrieve()也可以实现图片下载
