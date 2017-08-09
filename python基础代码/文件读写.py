@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-#__author__ = 'wukong'
 # python_version : 2.7.13
 
 print '>>>>>>>>>>>>>>只写打开，没有该文件就会创建文件>>>>>>>'
