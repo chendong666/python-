@@ -1,12 +1,16 @@
 # Python基础代码
 ***
 > 1.Python基础
->> * Python关键字及使用
+>> * Python保留字及使用
+>> * Python格式化、转义字符
 >> * python常用内置函数
 >> * Python控制流
+>> * Python代码规范PEP8
 >> * python字符串基础
 >> * Python简单列表操作
 >> * Python简单字典操作
+>> * python文件操作
+>> * Python函数初步
 >> * Python类初步
 >> * Python异常处理
 >> * Python代码测试  
@@ -21,4 +25,13 @@
 >> * 等等
 
 ---
+> 3.Python基础模块使用
+>> * os库
+>> * sys库
+>> * os.path
+>> * requests
+>> * urllib2
+>> * beautifulsoup4
+>> * lxml
+
 # 不完整持续更新中
