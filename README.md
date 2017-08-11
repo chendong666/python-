@@ -25,9 +25,10 @@
 >> * 等等
 
 ---
-> 3.Python基础模块使用
->> * os库
->> * sys库
+> 3.Python模块
+>> * pprint
+>> * os
+>> * sys
 >> * os.path
 >> * requests
 >> * urllib2
