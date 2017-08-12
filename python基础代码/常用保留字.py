@@ -6,6 +6,7 @@ print True
 print False
 # 布尔值
 print True and True
+print True and False and True
 # and 逻辑与
 print True or False
 # or 逻辑或
@@ -34,3 +35,36 @@ for i in range(10):
 # for 循环使i迭代range()中的值
 # continue 跳过此次循环
 # break结束循环
+
+# del删除
+a = ['a', '2', '3']
+print a
+del a['a']
+print a
+a = {'a': 1}
+print a
+del a['a']
+print a
+
+# from import as引入模块时使用
+from pprint import pprint as p
+
+p([1, 2, 3])
+
+# global nonlocal全局变量与局部变量
+pass
+pass
+pass
+
+# assert断言
+assert 1 != 1
+assert 1 == 1
+# 当后面的表达式返回False就报错
+# 在测试代码时较为有用
+
+# with 上下文管理器
+pass
+pass
+pass
+
+#

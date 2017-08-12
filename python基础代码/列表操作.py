@@ -68,8 +68,10 @@ list(list2)
 # 将对象转化为列表
 sum(list2)
 # 列表元素求和,列表元素必须为数字
-print '.'.join(list2)
-# 将列表的分隔符换成.并返回字符串，不改变list2
+list2 = ['a', 'b', 'c']
+# join的列表必须为字符串
+print 's'.join(list2)
+# 将列表的分隔符换成's'.并返回字符串，不改变list2
 tuple(list2)
 # 将列表转换为元组
 all(list2)
@@ -112,3 +114,5 @@ L1 = ['Hello', 'World', 18, 'Apple', None]
 # 生成式含义，为在L1中循环，若s为字符串则转换为小写后放入L2
 L2 = [s.lower() for s in L1 if isinstance(s, str)]
 print L2
+
+print [n for n in range(1, 100) if n % 2 != 0]
